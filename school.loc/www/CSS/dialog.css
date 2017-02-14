@@ -1,0 +1,57 @@
+.dialog { 
+	background: #F0F8FF;
+	border-radius: 5px;
+	margin-top: 50px;
+	padding: 5px;
+	border: 1px solid #ccc; }
+
+.dialog-content { 
+	background: #fff;	
+	overflow: auto;
+	padding: 5px;
+	height: 74vh;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin: 5px 0 0 0; }
+
+.ava-block { 
+	overflow: hidden;
+	padding: 0;
+	border-radius: 5px;
+	border: 1px solid #ccc; }
+
+.ava { 
+	position: absolute; }
+
+.message { 
+	border-radius: 5px; }
+
+.dialog-head {
+	background: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc; }
+
+.remove { 
+	z-index: 1;
+	cursor: pointer;
+	visibility: hidden;
+	color: #777;
+	top: 5px;
+	right: 5px;
+	position: absolute; }
+
+.dialog-head:hover .remove{ 
+	visibility: visible; }
+
+.dialog-body { 
+	padding: 2.5px 0 2.5px 0; }
+
+.dialog-footer { 
+	background: #fff;
+	margin: 5px 0 0px 0;
+	border-radius: 5px;
+	border: 1px solid #ccc; }
+
+.input-group { 
+	margin: 20px 0; }

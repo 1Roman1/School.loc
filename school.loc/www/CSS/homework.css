@@ -1,0 +1,60 @@
+:focus { 
+	outline-style: none !important;
+	outline-width: 0 !important;
+	outline-color: none !important; }
+
+.class,
+.date { 
+	padding: 20px 0 20px 0; }
+
+.input {
+	text-overflow: ellipsis;
+	font-size: 1.1em;
+	width: 100%;
+	word-wrap: normal;
+	border: none; } 
+
+.subject-col {
+	width: 30%; }
+
+.input-group-addon { 
+	padding: 0;
+	border: none;
+	background: #fff; }
+
+.btn-default {
+	border-radius: 0;
+	color: #777;
+	border: none;
+	padding: 2.5px; }
+
+#tooltip { 
+	box-shadow: 0 0 10px #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: #FFFACD;
+	z-index: 3;
+	line-height: 15px;
+	word-wrap: break-word;
+	width: 100%;
+	position: absolute; }
+
+#tooltip:before,
+#tooltip:after { 
+	z-index: 1;
+	content: '';
+	position: absolute;
+	border: 5px solid transparent;
+	border-bottom: 10px solid #FFFACD;
+	left: calc(50% - 2.5px);
+	top: -13px;
+	width: 0; }
+
+#tooltip:after { 
+	left: calc(50% - 2.5px);
+	top: -15px;
+	z-index: 0;
+	border: 5px solid transparent;
+	border-bottom: 10px solid #ccc; }
+

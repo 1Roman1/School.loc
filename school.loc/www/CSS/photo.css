@@ -1,0 +1,43 @@
+.wrap { 
+	padding: 0;
+	margin: 55px 0 0 0;
+	min-height: 90vh; }
+
+.head { 
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: #F0F8FF;
+	padding: 15px 10px; }
+
+.main { 
+	overflow: auto;
+	margin: 10px 0;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: #F0F8FF;
+	height: 85vh; }
+
+.photo { 
+	padding: 1%;
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	background: transparent;
+	cursor: pointer;
+	width: 98%; }
+
+.photo-name { 
+	padding: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 85%;
+	background: #fff;
+	font-size: 1.5em;
+	margin: 0 auto 20px; }
+
+.img { 
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	width: 85%; }

@@ -1,0 +1,7 @@
+127.0.0.1 14:24:19 Ошибка .. Не найдена учетная запись с таким логином .. getUserInfo .. (0)
+127.0.0.1 14:24:19 Ошибка в запросе
+127.0.0.1 14:24:19 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY post_id DESC' at line 2
+127.0.0.1 14:24:19 Ошибка .. Не найдена учетная запись с таким логином .. getUserInfo .. (-1)
+127.0.0.1 14:29:43 Личные сообщения отсутствуют
+127.0.0.1 14:29:49 Личные сообщения отсутствуют
+127.0.0.1 14:29:52 Личные сообщения отсутствуют
