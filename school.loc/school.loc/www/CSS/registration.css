@@ -1,0 +1,43 @@
+.reg-head { 
+	margin: 0 0 20px 0; }
+
+.form-group { 
+	margin: 20px 0 20px 0; }
+
+.reg-sign { 
+	margin: 15px 0 0 0; }
+
+.reg-head,
+.control-label { 
+	text-shadow: 3px 2px 1px #ccc; }
+
+.input-group { 
+	box-shadow: 2px 1px 2px #ccc;
+	border-radius: 5px; }
+
+:focus { 
+	outline-style: none;
+	outline-width: 0 !important;
+	outline-color: none !important; }
+
+@media screen and (max-width: 480px) { 
+	.reg-sign { 
+	margin: 0; }
+
+	.reg-head { 
+	margin: 20px 0 20px 0; } }
+
+@media screen and (min-width: 768px) { 
+	.reg-sign { 
+	border-radius: 0 0 10px 10px; }
+
+	.reg-head-btn { 
+		border-radius: 10px 10px 0 0;
+		margin: 0 0 40px 0; }
+
+	.registration { 
+		box-shadow: 10px 10px 10px #ccc;
+		border-radius: 15px;
+		padding: 0;
+		margin: 20px 0;
+		border: 1px solid #ccc; } }
