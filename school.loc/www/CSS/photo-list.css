@@ -1,0 +1,33 @@
+.wrap { 
+	padding: 0;
+	margin: 55px 0 0 0;
+	min-height: 90vh; }
+
+.head { 
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: #F0F8FF;
+	padding: 15px 10px; }
+
+.main { 
+	overflow: auto;
+	margin: 10px 0;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: #F0F8FF;
+	height: 85vh; }
+
+.album { 
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: #fff;
+	cursor: pointer;
+	width: 15.2vw; }
+
+.album-head { 
+	margin: 0; }
+
+.album-body { 
+	opacity: 0.5 }

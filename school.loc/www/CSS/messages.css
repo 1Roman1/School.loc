@@ -1,0 +1,62 @@
+.message-mid { 
+	padding: 60px 0 0 0; }
+
+.message { 
+	background: #F0F8FF;
+	height: 90vh;
+	padding: 5px 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc; }
+
+.ava-block { 
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 0;
+	border: 1px solid #ccc; }
+
+.ava { 
+	position: absolute; }
+
+.user-message { 
+	background: #fff;
+	margin-bottom: 5px;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid #ccc; }
+
+.messager-name {
+	font-size: 0.8em; 	
+	margin: 5px 0 0 0; }
+
+.last-message { 
+	line-height: 4em;
+	border-radius: 5px;
+	font-size: 1em; }
+
+.message-date { 
+	padding: 5px 0 0 0;
+	font-size: 1.3em; }
+
+.search-block { 
+	margin: 0 0 5px 0;
+	padding: 0; }
+
+.message-search { 
+	padding: 10px 0 10px 0; }
+
+.remove { 
+	border: none;
+	background: transparent;
+	z-index: 1;
+	cursor: pointer;
+	color: transparent;
+	top: 0;
+	right: -25px;
+	position: absolute; }
+
+.user-message:hover .remove,
+.remove:hover { 
+	color: #ccc; }
+
+
