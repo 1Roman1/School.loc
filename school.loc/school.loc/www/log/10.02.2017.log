@@ -1,7 +1,0 @@
-127.0.0.1 09:58:16 Ошибка .. Не найдена учетная запись с таким логином .. getUserInfo .. (-1)
-127.0.0.1 14:40:06 Ошибка .. Не найдена учетная запись с таким логином .. getUserInfo .. (0)
-127.0.0.1 14:40:06 Ошибка в запросе
-127.0.0.1 14:40:06 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY post_id DESC' at line 2
-127.0.0.1 14:40:06 Ошибка .. Не найдена учетная запись с таким логином .. getUserInfo .. (-1)
-127.0.0.1 14:40:14 getUserByLogin(chechin.roman@mail.ru), Не найден пользователь
-127.0.0.1 14:40:28 getUserByLogin(chechin.roman@mail.ru), Не найден пользователь
