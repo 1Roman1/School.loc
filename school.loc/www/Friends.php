@@ -56,7 +56,7 @@ $user_class = USER::getUserOnClass($user_id);
                 <p class="info"><a href="Dialog.php?sel=<?= $user['user_id']; ?>">Написать сообщение</a></p>
               </div>
               <div class="col-xs-4">
-                <p class="info">Положение(в друзьях или нет)</p>
+                <p class="info">Положение(лох/не лох)</p>
               </div>
             </div>
           </div>
