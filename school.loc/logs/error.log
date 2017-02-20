@@ -1,0 +1,5 @@
+[Sun Feb 19 17:44:00.567472 2017] [:error] [pid 7880:tid 1912] [client 127.0.0.1:53084] PHP Notice:  Undefined index: user_first_name in C:\\xampp\\htdocs\\school.loc\\www\\block\\top_block.php on line 12
+[Sun Feb 19 17:44:00.567973 2017] [:error] [pid 7880:tid 1912] [client 127.0.0.1:53084] PHP Notice:  Undefined index: user_second_name in C:\\xampp\\htdocs\\school.loc\\www\\block\\top_block.php on line 12
+[Mon Feb 20 11:42:21.532703 2017] [:error] [pid 4884:tid 1912] [client 127.0.0.1:56484] PHP Notice:  Undefined variable: _SESSION in C:\\xampp\\htdocs\\school.loc\\www\\Profile.php on line 10
+[Mon Feb 20 11:42:21.677784 2017] [:error] [pid 4884:tid 1912] [client 127.0.0.1:56484] PHP Notice:  Undefined index: user_first_name in C:\\xampp\\htdocs\\school.loc\\www\\block\\top_block.php on line 12
+[Mon Feb 20 11:42:21.679016 2017] [:error] [pid 4884:tid 1912] [client 127.0.0.1:56484] PHP Notice:  Undefined index: user_second_name in C:\\xampp\\htdocs\\school.loc\\www\\block\\top_block.php on line 12
