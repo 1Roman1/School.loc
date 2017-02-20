@@ -226,7 +226,7 @@ if (!AUTH::isAuth()) {
                         </div>
                         <div class="col-xs-12 text-muted"><?= $item['post_date_add'] ?></div>
                       </div>
-
+                      
                     </div>
 
                     <div class="col-xs-12 news-content">
@@ -234,6 +234,62 @@ if (!AUTH::isAuth()) {
                         Пост
                         <span class="glyphicon glyphicon-comment comment-icon" title="Комментировать"></span>
                       </p>
+                      <form method="post" class="post-input-news">
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <div class="input-group">
+                              <!--<div class="input-group-btn">
+                                  <button class="btn btn-primary dropdown-toggle"
+                                          data-toggle="dropdown" title="Прикрепить">
+                                      <span class="caret"></span>
+                                  </button>
+                                  <ul class="dropdown-menu pull-left">
+                                      <li class="news-add-li">
+                                          <input type="file" class="file" id="news-add-photo">
+                                          <label for="news-add-photo" class="text-muted">
+                                              <i class="glyphicon glyphicon-camera text-muted"></i>
+                                              <small>Выберите фото</small>
+                                          </label>
+                                      </li>
+                                      <li class="news-add-li">
+                                          <input type="file" class="file" id="news-add-gif">
+                                          <label for="news-add-gif" class="text-muted">
+                                              <i class="glyphicon glyphicon-film text-muted"></i>
+                                              <small>Выберите гиф</small>
+                                          </label>
+                                      </li>
+                                      <li class="news-add-li">
+                                          <input type="file" class="file" id="news-add-video">
+                                          <label for="news-add-video" class="text-muted">
+                                              <i class="glyphicon glyphicon-facetime-video"></i>
+                                              <small>Выберите видео</small>
+                                          </label>
+                                      </li>
+                                      <li class="news-add-li">
+                                          <input type="file" class="file" id="news-add-audio">
+                                          <label for="news-add-audio" class="text-muted">
+                                              <i class="glyphicon glyphicon-music"></i>
+                                              <small>Выберите аудио</small>
+                                          </label>
+                                      </li>
+                                      <li class="news-add-li">
+                                          <input type="file" class="file" id="news-add-doc">
+                                          <label for="news-add-doc" class="text-muted">
+                                              <i class="glyphicon glyphicon-file"></i>
+                                              <small>Выберите документ</small>
+                                          </label>
+                                      </li>
+                                  </ul>
+                              </div>-->
+                              <input type="text" class="form-control comment-input"
+                                     placeholder="Комментировать" >
+                              <div class="input-group-btn">
+                                <button class="btn btn-primary">Опубликовать</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
                     </div>
                     <!-- тут выводится содержание новости-->
                       <!-- а сюда сделай сука тупые нахуй комментарии блять СУКА ТЫ ПОНЯЛ НАХУЙ?? КОММЕНТАРИИ!!! -->
@@ -266,64 +322,64 @@ if (!AUTH::isAuth()) {
                         Комент
                         <span class="glyphicon glyphicon-comment comment-icon" title="Комментировать"></span>
                       </p>
-                    </div>
 
-                    <!-- <div class="col-xs-12 news-footer">
-                      <form method="post">
-                        <div class="col-xs-12">
-                          <div class="input-group">
-                             <div class="input-group-btn">
-                                <button class="btn btn-primary dropdown-toggle"
-                                        data-toggle="dropdown" title="Прикрепить">
-                                    <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu pull-left">
-                                    <li class="news-add-li">
-                                        <input type="file" class="file" id="news-add-photo">
-                                        <label for="news-add-photo" class="text-muted">
-                                            <i class="glyphicon glyphicon-camera text-muted"></i>
-                                            <small>Выберите фото</small>
-                                        </label>
-                                    </li>
-                                    <li class="news-add-li">
-                                        <input type="file" class="file" id="news-add-gif">
-                                        <label for="news-add-gif" class="text-muted">
-                                            <i class="glyphicon glyphicon-film text-muted"></i>
-                                            <small>Выберите гиф</small>
-                                        </label>
-                                    </li>
-                                    <li class="news-add-li">
-                                        <input type="file" class="file" id="news-add-video">
-                                        <label for="news-add-video" class="text-muted">
-                                            <i class="glyphicon glyphicon-facetime-video"></i>
-                                            <small>Выберите видео</small>
-                                        </label>
-                                    </li>
-                                    <li class="news-add-li">
-                                        <input type="file" class="file" id="news-add-audio">
-                                        <label for="news-add-audio" class="text-muted">
-                                            <i class="glyphicon glyphicon-music"></i>
-                                            <small>Выберите аудио</small>
-                                        </label>
-                                    </li>
-                                    <li class="news-add-li">
-                                        <input type="file" class="file" id="news-add-doc">
-                                        <label for="news-add-doc" class="text-muted">
-                                            <i class="glyphicon glyphicon-file"></i>
-                                            <small>Выберите документ</small>
-                                        </label>
-                                    </li>
-                                </ul>
-                            </div>
-                            <input type="text" class="form-control news-head-input" name="new_user_comment" placeholder="Добавить комментарий">
-                            <input type="hidden" name="post_id_comment" value="<?= $item['post_id'] ?>">
-                            <div class="input-group-btn">
-                              <button type="submit" id="new_user_post" name="new_comment_on_user_post" class="btn btn-primary">Опубликовать</button>
+                      <form method="post" class="post-input-news">
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <div class="input-group">
+                              <!--<div class="input-group-btn">
+                                  <button class="btn btn-primary dropdown-toggle"
+                                          data-toggle="dropdown" title="Прикрепить">
+                                      <span class="caret"></span>
+                                  </button>
+                                  <ul class="dropdown-menu pull-left">
+                                      <li class="news-add-li">
+                                          <input type="file" class="file" id="news-add-photo">
+                                          <label for="news-add-photo" class="text-muted">
+                                              <i class="glyphicon glyphicon-camera text-muted"></i>
+                                              <small>Выберите фото</small>
+                                          </label>
+                                      </li>
+                                      <li class="news-add-li">
+                                          <input type="file" class="file" id="news-add-gif">
+                                          <label for="news-add-gif" class="text-muted">
+                                              <i class="glyphicon glyphicon-film text-muted"></i>
+                                              <small>Выберите гиф</small>
+                                          </label>
+                                      </li>
+                                      <li class="news-add-li">
+                                          <input type="file" class="file" id="news-add-video">
+                                          <label for="news-add-video" class="text-muted">
+                                              <i class="glyphicon glyphicon-facetime-video"></i>
+                                              <small>Выберите видео</small>
+                                          </label>
+                                      </li>
+                                      <li class="news-add-li">
+                                          <input type="file" class="file" id="news-add-audio">
+                                          <label for="news-add-audio" class="text-muted">
+                                              <i class="glyphicon glyphicon-music"></i>
+                                              <small>Выберите аудио</small>
+                                          </label>
+                                      </li>
+                                      <li class="news-add-li">
+                                          <input type="file" class="file" id="news-add-doc">
+                                          <label for="news-add-doc" class="text-muted">
+                                              <i class="glyphicon glyphicon-file"></i>
+                                              <small>Выберите документ</small>
+                                          </label>
+                                      </li>
+                                  </ul>
+                              </div>-->
+                              <input type="text" class="form-control comment-input"
+                                     placeholder="Комментировать" >
+                              <div class="input-group-btn">
+                                <button class="btn btn-primary">Опубликовать</button>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </form>
-                    </div> -->
+                    </div>
 
                   </div>
                   <?php endforeach; ?>
@@ -366,16 +422,21 @@ if (!AUTH::isAuth()) {
   <script>
     $(document).ready(function(){
       $('.comment-icon').click(function(){
-        $(this).parent().append($('.post-input'));
+        $(this).closest('.news-content').find('.post-input-news').css('display','block');
+        $('.comment-input').focus();
       })
-    })
-  </script>
 
-  <script>
-    $(document).ready(function(){
+      $('.comment-input').blur(function(){
+        $('.post-input-news').css('display','none');
+      })
+
       $('.profile-status').click(function(){
         $(this).css('visibility','hidden');
         $('.profile-status-input').css('visibility','visible');
+        $('.profile-status-input').find('input').focus().blur(function(){
+          $('.profile-status-input').css('visibility','hidden');
+          $('.profile-status').css('visibility','visible');
+        });
       })
     })
   </script>

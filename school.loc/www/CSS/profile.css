@@ -203,13 +203,16 @@
 .post { 
 	cursor: pointer;
 	margin: 0;
-	padding: 0 20px 10px 20px; }
+	padding: 0 20px 10px 0; }
+
+.post-input-news { 
+	display: none; }
 
 .comment { 
 	border-top: 1px solid #ccc; }
 
 .news-content {
-	padding: 0px 0px 10px 0px; }
+	padding: 10px 20px; }
 
 .comment-block { 
 	padding: 15px 0 0 0; }
@@ -220,6 +223,9 @@
 .comment-icon { 
 	margin: 0 0 0 10px;
 	color: #337AB7; }
+
+.comment-input { 
+	padding: 0 10px; }
 
 .dropdown-menu {
 	margin: 0;

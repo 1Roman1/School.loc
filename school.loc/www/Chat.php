@@ -28,9 +28,8 @@
 		<!-- Диалоговое окно -->
 		<div class="col-xs-6 col-xs-offset-3 dialog">
 		  <div class="dialog-head col-xs-12">
-		    <span class="remove"><i class="glyphicon glyphicon-remove"></i></span>
 		    <div class="col-xs-12 text-muted text-center">
-		      <div class="chat-head text-center text-muted	">Номер школы</div>
+		      <div class="chat-head text-center text-muted">Номер школы</div>
 		    </div>
 		  </div>
 
