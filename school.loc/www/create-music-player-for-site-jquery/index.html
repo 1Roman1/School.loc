@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Создаем аудиоплеер для сайта на jQuery | Демонстрация для сайта s-sd.ru</title>
+
+	<!-- Audio Player CSS & Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="css/style.css" media="screen">
+	<!-- end Audio Player CSS & Scripts -->
+
+	<style type="text/css">
+		html, body { margin: 0;	padding: 0; }
+		body { padding: 200px; background: url('/img/bgp.jpg'); }
+		.audio-player { margin: 0 auto; background-color: #f3f4ef; border: 1px solid #dedede;}
+	</style>
+<meta name="robots" content="noindex,follow" />
+</head>
+
+<body>
+<br>
+<center><a href="http://www.s-sd.ru"><img src="/files/logo.png" alt=""/></a></center>
+<br>
+
+	<!-- Audio Player HTML -->
+	<div class="audio-player">
+		<h1>Demo - Preview Song</h1>
+		<img class="cover" src="img/cover.png" alt="">
+		<audio id="audio-player" src="media/demo.mp3" type="audio/mp3" controls="controls"></audio>
+	</div>
+
+	<script>
+		$(document).ready(function() {
+			$('#audio-player').mediaelementplayer({
+				alwaysShowControls: true,
+				features: ['playpause','volume','progress'],
+				audioVolume: 'horizontal',
+				audioWidth: 400,
+				audioHeight: 120
+			});
+		});
+	</script>
+	<!-- end Audio Player HTML -->
+
+</body>
+
+</html>

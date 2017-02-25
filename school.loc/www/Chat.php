@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale-1.0">
 	<link rel="stylesheet" href="css/Reset.css">
 	<link rel="stylesheet" href="bootstrap-3.3.2-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/profile.css">
-	<link rel="stylesheet" href="css/dialog.css">
+	<link rel="stylesheet" href="CSS/profile.css">
+	<link rel="stylesheet" href="CSS/dialog.css">
 	<script src="jQuery/jquery-3.1.0.js"></script>
 	<script src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
 	<script src="js/ava.js"></script>
